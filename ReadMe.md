@@ -107,7 +107,7 @@ npm run dev
 
 The backend runs at:
 
-http://localhost:5000
+http://localhost:5000 ||  https://personalization-rules-engine.onrender.com
 
 ---
 
@@ -135,7 +135,7 @@ npm run dev
 
 The frontend runs at:
 
-http://localhost:5173
+http://localhost:5173  ||  https://personalization-rules-engine-nine.vercel.app/
 
 
 ---
