@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
     });
 });
 
+app.head("/", (req, res) => {
+  res.sendStatus(200);
+});
+
 app.use("/api/classify", classifyRoute);
 
 const PORT = process.env.PORT || 5000;
