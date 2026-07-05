@@ -40,7 +40,7 @@ Based on the session events, the application predicts the shopper type, provides
 ---
 
 ## Project Structure
-
+```text
 Ecom_Rule_Engine/
 │
 ├── client/
@@ -58,7 +58,7 @@ Ecom_Rule_Engine/
 │   └── .env
 │
 └── README.md
-
+```
 
 ---
 
@@ -145,7 +145,7 @@ http://localhost:5173
 ### POST `/api/classify`
 
 Example Request:
-
+```json
 {
   "events": [
     "Visited Home",
@@ -155,9 +155,9 @@ Example Request:
     "Exited Website"
   ]
 }
-
+```
 Example Response:
-
+```json
 {
   "success": true,
   "result": {
@@ -172,7 +172,7 @@ Example Response:
     "reason": "The user showed strong purchase intent but left before completing the purchase."
   }
 }
-
+```
 
 ---
 
